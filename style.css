@@ -1,0 +1,120 @@
+/* =========================================================================
+   Some basic styling rules (made by sano).
+   ========================================================================
+*/
+
+html {
+  font-family: "M PLUS 1p", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #546e7a;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+h1,
+h2 {
+  color: #fb8c00;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #546e7a;
+}
+
+h4,
+h5,
+h6 {
+  text-decoration: underline #fb8c00;
+  font-weight: normal;
+}
+
+hr {
+  border-top: 1px solid #cbcbcb;
+}
+
+.sticky-menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding-top: 20px;
+  background-color: inherit;
+  border-bottom: 1px solid #b3e5fc;
+}
+
+a {
+  color: #5c6bc0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+  margin: 20px;
+  background-color: #e1f5fe;
+  width: 80%;
+}
+
+table caption {
+  color: #29b6f6;
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+
+table td,
+table th {
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible; /*to make ths where the title is really long work*/
+  border: 1px solid #cbcbcb; /*  inner column border */
+  padding: 0.5em 1em; /* cell padding */
+}
+
+table tr {
+  border: 1px solid #cbcbcb; /*  inner column border */
+}
+
+table th {
+  color: #29b6f6;
+}
+
+table thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 10px;
+  }
+  table {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
