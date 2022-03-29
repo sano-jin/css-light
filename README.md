@@ -1,6 +1,6 @@
 # css-light
 
-a very simple css for html without additional classes or ids
+A very simple css for html without additional classes or ids
 
 See [Demo](https://sano-jin.github.io/css-light/index.html)
 
